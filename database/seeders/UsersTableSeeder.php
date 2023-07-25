@@ -33,7 +33,7 @@ class UsersTableSeeder extends Seeder
             'email'=>'agent@gmail.com',
             'email_verified_at'=>now(),
             'password'=>Hash::make('12345678'),
-            'role'=>'admin',
+            'role'=>'agent',
             'status'=>'active',
             'remember_token' => Str::random(10),
         ]);
@@ -44,7 +44,7 @@ class UsersTableSeeder extends Seeder
             'email'=>'user@gmail.com',
             'email_verified_at'=>now(),
             'password'=>Hash::make('12345678'),
-            'role'=>'admin',
+            'role'=>'user',
             'status'=>'active',
             'remember_token' => Str::random(10),
         ]);
